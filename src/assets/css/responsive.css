@@ -1,0 +1,27 @@
+@media (max-width: 992px) {
+    .container-lg, .container-md, .container-sm, .container {
+      max-width: 960px;
+    }
+    .navbar-toggler {
+        display:block;
+    }
+    .navbar-collapse {
+        flex-basis: 100%!important;
+        flex-grow: 1!important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none!important;
+    }
+    .navbar-light .navbar-toggler {
+        border:none!important;
+    }
+    .mobile-logo.responsive{
+        display:block;
+      }
+      .mobile-logo{
+       display:none;
+      }
+      .main-section-text{
+        text-align: center;
+      }
+}
